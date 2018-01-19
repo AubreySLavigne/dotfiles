@@ -1,14 +1,17 @@
 #!/bin/bash
 
+# Quick Jumps
+alias proj="cd ~/proj"
+alias notes="cd ~/notes"
+
 # Docker
-alias dps="sudo docker ps"
+alias dps='docker ps'
 
 # Miscellaneous
-alias todo="vim ~/notes/tasklist.md"
+alias todo='vim ~/notes/tasklist.md'
 
-# Alias Over-writes
-# Plugins from Oh-My-Zsh may use create their own aliases. Define them here to  
-#  make sure your alias takes precedence.
-#
-#alias gs='git status'  # This ensures that gs refers to Git, and not GhostScript
+# Overwrites 'gs' as "GhostScript"
+alias gs='git status'
 
+# Easter Eggs
+alias rtfm='man'
