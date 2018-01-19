@@ -69,6 +69,7 @@ plugins=(
   gitflow
   github
   gitignore
+  go
   man
   npm
   perl
